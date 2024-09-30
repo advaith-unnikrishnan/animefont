@@ -45,7 +45,7 @@ export default function AnimeFontConverter() {
   };
 
   return (
-    <div className={`container mx-auto p-4 max-w-3xl ${narutoFont.variable} ${dragonBallFont.variable} ${deathNoteFont.variable} ${onePieceFont.variable} ${avatarFont.variable} ${blackCloverFont.variable}${demonSlayerFont.variable} ${jujutsuKaisenFont.variable} ${attackTitanFont.variable}`}>
+    <div className={`container mx-auto p-4 max-w-3xl ${narutoFont.variable} ${dragonBallFont.variable} ${deathNoteFont.variable} ${onePieceFont.variable} ${avatarFont.variable} ${blackCloverFont.variable} ${demonSlayerFont.variable} ${jujutsuKaisenFont.variable} ${attackTitanFont.variable}`}>
       <h1 className="text-3xl font-bold mb-6 text-center">Anime Font Converter</h1>
       
       <div className="mb-4">
@@ -128,6 +128,10 @@ export default function AnimeFontConverter() {
           </button>
         </div>
       </div>
+
+      <footer className="mt-8 text-center text-sm text-gray-500">
+        Built with ❤️ by <a href="https://advaithc.o/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">advaith</a>
+      </footer>
     </div>
   );
 }
